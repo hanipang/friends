@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网易云音乐</title>
+    <meta name="keywords"
+        content="网易云音乐，音乐，播放器，网易，下载，播放，DJ，免费，明星，精选，歌单，识别音乐，收藏，分享音乐，音乐互动，高音质，320K，音乐社交，官网，music.163.com" />
+    <meta name="description" content="网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。" />
+    <meta property="og:title" content="网易云音乐" />
+    <title>Document</title>
+    <!-- 播放器引入 -->
+    <link rel="stylesheet" href="css/playerbase.css">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="fonts/play-icon-font/iconfont.css">
+    <!-- 整体页面引入 -->
+    <link rel="shortcut icon" href="picture/favicon (1).ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="top">
+        <div class="topbar wraper">
+            <div class="logo">
+                <a href="javascript:;">
+                    <span></span>
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="left"><a href="javascript:;">发现音乐</a></li>
+                    <li class="left"><a href="javascript:;">我的音乐</a></li>
+                    <li class="left"><a href="javascript:;">朋友</a></li>
+                    <li class="left"><a href="javascript:;">商城</a></li>
+                    <li class="left"><a href="javascript:;">音乐人</a></li>
+                    <li class="left"><a href="javascript:;">下载客户端</a><span></span></li>
+                </ul>
+            </div>
+            <div class="text left">
+                <input type="text" placeholder="音乐/视频/电台/用户">
+                <div></div>
+                <!-- <span>音乐/视频/电台/用户</span> -->
+            </div>
+            <div class="cz right">
+                <span><a href="javascript:;">创作者中心</a></span>
+            </div>
+        </div>
+        <div class="topdi">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- 中部内容 -->
+    <div class="content">
+        <div class="btna">
+            <img src="picture/顶部.png" alt="">
+        </div>
+        <div class="contentcenter contentwraper">
+            <div class="leftcontent left">
+                <div class="leftbanner">
+                    <ul>
+                        <li class="left">动态</li>
+                        <li class="right"><a href="javascript:;"></a></li>
+                        <li class="right"><a href="javascript:;"></a></li>
+                    </ul>
+                </div>
+                <!-- 内容框 -->
+                <div class="listcontent">
+                    <!-- 头部用户信息内容 -->
+                    <div class="listmain">
+                        <div class="userlogo">
+                            <img src="people/牛叔.jpg" alt="">
+                        </div>
+                        <div class="username">
+                            <ul>
+                                <li class="left">牛叔</li>
+                                <li class="left">
+                                    <img src="images/icn_daren.png" alt="">
+                                </li>
+                                <li class="left">分享视频</li>
+                                <br>
+                                <li class="usernamea left">最近</li>
+
+                            </ul>
+                        </div>
+                        <div class="msg">
+                            <ul>
+                                <li></li>
+                                <li>关注</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 中部用户发表内容 -->
+                    <div class="contentmain">
+                        <div class="contentname">
+                            <ul>
+                                <li>他那销魂的舞姿，在我噩梦里久久不能散去</li>
+                                <li><a href="">#关于《复仇者联盟4》你想说点什么#</a></li>
+                                <li>一首《渣男迪斯科》带你走进灭霸的无奈</li>
+                            </ul>
+                        </div>
+                        <div class="container">
+                            <div class="videomusic" id="videobox">
+                                <video id="video1" width="400" style="margin-top:5px;" preload="preload" id="video"
+                                    poster="picture/漫威1.jpg">
+                                    <source src="medias/video/1_银河护卫队ComeandGetYourLov.mp4" type="video/mp4" />
+                                </video>
+                                <button onclick="playPause()">播放/暂停</button>
+                                <button onclick="makeBig()">大</button>
+                                <button onclick="makeSmall()">小</button>
+                                <button onclick="" id="fullScreenBtn">全屏</button>
+                                <!-- <progress value="0" max="0" id="pro"></progress> -->
+                                <input type="range" min="0" max="100" value="50" onchange="setvalue()" id="ran" />low但能用
+                                <!-- <source src="medias/video/1_银河护卫队ComeandGetYourLov.mp4" type="video/mp4" /> -->
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- 底部提示信息 -->
+                    <div class="footermsg">
+                        <ul>
+                            <li class="left"><a href="javascript:;"></a></li>
+                            <li class="left"><a href="javascript:;">(5461)</a></li>
+                            <li class="left"><a href="javascript:;">转发(213)</a></li>
+                            <li class="left"><a href="javascript:;">评论(666)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 内容框2 -->
+                <div class="listcontent">
+                    <!-- 头部用户信息内容 -->
+                    <div class="listmain">
+                        <div class="userlogo">
+                            <img src="picture/favicon (1).ico" alt="">
+                        </div>
+                        <div class="username">
+                            <ul>
+                                <li class="left">网易云音乐</li>
+                                <li class="left">
+                                    <img src="images/icn_daren.png" alt="">
+                                </li>
+                                <li class="left">分享照片</li>
+                                <br>
+                                <li class="usernameab left ">最近</li>
+                            </ul>
+                        </div>
+                        <div class="msg">
+                            <ul>
+                                <li></li>
+                                <li>关注</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 中部用户发表内容 -->
+                    <div class="contentmain">
+                        <div class="contentname">
+                            <ul>
+                                <li>每周VIP专享新歌，编辑精选推荐！</li>
+                                <li><a href="">@KOHH_Official @FarEastMovement远东韵律</a></li>
+                                <li>Justin黄明昊 VS日本说唱歌手@KOHH_Official 合作单曲《MARIA》碰撞出奇妙的火花！
+                                    @FarEastMovement远东韵律 X 张艺兴 《Lovebird》全新Remix版本更显独特前卫~
+                                    打雷姐Lana Del Rey最新翻唱单曲《Doin' Time》有没有让你想起你回忆中夏天的那个人？
+                                    评论区也留下你心中的最佳吧
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="container">
+                            <div class="swiper-container gallery-top">
+                                <div class="swiper-wrapper tou">
+                                    <div class="swiper-slide" style="background-image:url(images/c1.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c2.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c3.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c4.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c5.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c6.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c7.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c8.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c9.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c10.jpg)"></div>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(images/c1.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c2.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c3.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c4.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c5.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c6.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c7.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c8.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c9.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/c10.jpg)"></div>
+                                </div>
+                            </div>
+
+                            <!-- <source src="medias/video/1_银河护卫队ComeandGetYourLov.mp4" type="video/mp4" /> -->
+
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- 底部提示信息 -->
+                    <div class="footermsg">
+                        <ul>
+                            <li class="left"><a href="javascript:;"></a></li>
+                            <li class="left"><a href="javascript:;">(1005)</a></li>
+                            <li class="left"><a href="javascript:;">转发(658)</a></li>
+                            <li class="left"><a href="javascript:;">评论(842)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcontent left">
+                <div class="rightsidebar">
+                    <div class="service">
+                        <span class="touxiang left ">
+                            <img src="picture/109951163744997289.jpg" alt="">
+                        </span>
+                        <h5 class="left">MMP 锁我喉</h5>
+                        <div class="geren"></div>
+                        <ul>
+                            <li class="left"><a href="javascript:;">
+                                    <em>6</em><br>
+                                    <i>动态</i>
+                                </a></li>
+                            <li class="left"><a href="javascript:;">
+                                    <em>6</em><br>
+                                    <i>关注</i>
+                                </a></li>
+                            <li class="left"><a href="javascript:;">
+                                    <em>6</em><br>
+                                    <i>粉丝</i>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="people">
+                        <div class="servicea">
+                            <ul>
+                                <li class="left">明星用户</li>
+                                <li class="right"><a href="javascript:;">换一批</a></li>
+                            </ul>
+                        </div>
+                        <div class="serviceb">
+                            <div class="tou">
+                                <img src="picture/明星1.jpg" alt="">
+                            </div>
+                            <div class="ming">
+                                <div class="minga">
+                                    <a href="javascript:;">沙雕</a>
+                                    <img src="picture/icn_vip.png-3ae396b70adb2ebc856a5df477406927.png" alt="">
+                                </div>
+                                <div class="mingb">
+                                    <a href="javascript:;">知名沙雕</a>
+                                </div>
+                            </div>
+                            <div class="guan">
+                                <a href="javascript:;">
+                                    <div></div>
+                                    <span>关注</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="serviceb">
+                            <div class="tou">
+                                <img src="people/t1.jpg" alt="">
+                            </div>
+                            <div class="ming">
+                                <div class="minga">
+                                    <a href="javascript:;">沙雕</a>
+                                    <img src="picture/icn_vip.png-3ae396b70adb2ebc856a5df477406927.png" alt="">
+                                </div>
+                                <div class="mingb">
+                                    <a href="javascript:;">知名沙雕</a>
+                                </div>
+                            </div>
+                            <div class="guan">
+                                <a href="javascript:;">
+                                    <div></div>
+                                    <span>关注</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="serviceb">
+                            <div class="tou">
+                                <img src="picture/明星3.jpg" alt="">
+                            </div>
+                            <div class="ming">
+                                <div class="minga">
+                                    <a href="javascript:;">沙雕</a>
+                                    <img src="picture/109951163709553273.png" alt="">
+                                </div>
+                                <div class="mingb">
+                                    <a href="javascript:;">知名沙雕</a>
+                                </div>
+                            </div>
+                            <div class="guan">
+                                <a href="javascript:;">
+                                    <div></div>
+                                    <span>关注</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="serviceb">
+                            <div class="tou">
+                                <img src="picture/明星2.jpg" alt="">
+                            </div>
+                            <div class="ming">
+                                <div class="minga">
+                                    <a href="javascript:;">沙雕</a>
+                                    <img src="picture/109951163309837705.png" alt="">
+                                </div>
+                                <div class="mingb">
+                                    <a href="javascript:;">知名沙雕</a>
+                                </div>
+                            </div>
+                            <div class="guan">
+                                <a href="javascript:;">
+                                    <div></div>
+                                    <span>关注</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bangding">
+                        <div class="wb">添加微博好友，和他们分享音乐</div>
+                        <div class="bd">
+                            <div class="bdb"></div>
+                            <div class="bdba"></div>
+                            <div class="bdw"></div>
+                            <span>绑定新浪微博</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部播放器 -->
+    <div class="playerfooter">
+        <div class="playermain playerwraper">
+            <div class="playershop left">
+                <ul>
+                    <li class="left">
+                        <a href="javascript:;" title="上一曲"></a>
+                    </li>
+                    <li class="left">
+                        <a href="javascript:;" title="播放"></a>
+                    </li>
+                    <li class="left">
+                        <a href="javascript:;" title="下一曲"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header left">
+                <a href="">
+                    <img src="picture/漫威1.jpg" alt="">
+                </a>
+            </div>
+            <div class="scroll">
+                <div class="musicname">
+                    <ul>
+                        <li class="left">
+                            <a href="javascript:;" title="像我这样的人">像我这样的人</a>
+                        </li>
+                        <li class="left">
+                            <a href="javascript:;" title="MV"></a>
+                        </li>
+                        <li class="left">
+                            <a href="javascript:;" title="毛不易">毛不易</a>
+                        </li>
+                        <li class="left">
+                            <a href="javascript:;" title="来自歌单"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scrollbottom left">
+                    <div class="scrolla"></div>
+                    <div class="scrollb">
+                        <img src="picture/ply_btn_hvr.png-d9f4d700aa9cc83849698f97c4ec8e90.png" alt="">
+                    </div>
+                    <div class="time">
+                        <ul>
+                            <li class="left">00:00</li>
+                            <li class="left">&nbsp;/&nbsp;</li>
+                            <li class="left">05:22</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu right">
+                    <ul>
+                        <li class="left"><a href="javascript:;" title="收藏"></a></li>
+                        <li class="left"><a href="javascript:;" title="分享"></a></li>
+                        <li class="left"><a href="javascript:;"></a></li>
+                        <li class="left"><a href="javascript:;" title="音量"></a></li>
+                        <li class="left"><a href="javascript:;" title="随机播放"></a></li>
+                        <li class="left"><a href="javascript:;" title="播放列表"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="status right">
+            <div class="statusa">
+                <div class="statusb">
+                    <a href="javascript:;" class="active"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 弹出播放器 -->
+    <div class="playercontent">
+        <div class="player_logo">
+            <a href="javascript:;">
+                <!-- <img src="images/player-images/logo.png" alt="logo"> -->
+            </a>
+        </div>
+        <section class="player_bg">
+            <div class="player">
+                <!-- 纯净模式轮播图 -->
+                <div class="main-player">
+                <div class="main_player">
+                    <div class="page_player">
+                        <ul class="caption_player clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <span class="iconfont">&#xe6a3;</span>
+                                    收藏
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <span class="iconfont">&#xe712;</span>
+                                    添加到
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <span class="iconfont">&#xe7ae;</span>
+                                    下载
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="del">
+                                    <span class="iconfont">&#xe625;</span>
+                                    删除
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="delAll">
+                                    <span class="iconfont">&#xe747;</span>
+                                    清空列表
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="list clearfix">
+                            <ul class="caption">
+                                <li>
+                                    <input type="checkbox">
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>歌曲</li>
+                                <li>歌手</li>
+                                <li>时长</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="singer_player">
+                        <div class="singer_player_box">
+                            <a href="javascript:;">
+                                <img class="singer_player_img" src="images/player-images/漫威.jpg" alt="">
+                            </a>
+                            <div class="singer_player_name"> </div>
+                            <div class="singer_player_singer"> </div>
+                            <div class="singer_player_album"> </div>
+                            <div class="singer_player_showBox">
+                                <div class="singer_player_text active">
+
+                                    <div>学猫叫</div>
+                                    <div>歌曲原唱：小潘潘，小峰峰 </div>
+                                    <div>填 词：小峰峰 </div>
+                                    <div>谱 曲：小峰峰</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>在你面前撒个娇</div>
+                                    <div>哎呦喵喵喵喵喵</div>
+                                    <div>我的心脏砰砰跳</div>
+                                    <div>迷恋上你的坏笑</div>
+                                    <div>你不说爱我我就喵喵喵</div>
+                                    <div>每天都需要你的拥抱</div>
+                                    <div>珍惜在一起的每分每秒</div>
+                                    <div>你对我多重要</div>
+                                    <div>我想你比我更知道</div>
+                                    <div>你就是我的女主角</div>
+                                    <div>有时候我懒的像只猫</div>
+                                    <div>脾气不好时又张牙舞爪</div>
+                                    <div>你总是温柔的</div>
+                                    <div>能把我的心融化掉</div>
+                                    <div>我想要当你的小猫猫</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>在你面前撒个娇</div>
+                                    <div>哎呦喵喵喵喵喵</div>
+                                    <div>我的心脏砰砰跳</div>
+                                    <div>迷恋上你的坏笑</div>
+                                    <div>你不说爱我我就喵喵喵</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>我要穿你的外套</div>
+                                    <div>闻你身上的味道</div>
+                                    <div>想要变成你的猫</div>
+                                    <div>赖在你怀里睡着</div>
+                                    <div>每天都贪恋着你的好</div>
+                                    <div>有时候我懒的像只猫</div>
+                                    <div>脾气不好时又张牙舞爪</div>
+                                    <div>你总是温柔的</div>
+                                    <div>能把我的心融化掉</div>
+                                    <div>我想要当你的小猫猫</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>在你面前撒个娇</div>
+                                    <div>哎呦喵喵喵喵喵</div>
+                                    <div>我的心脏砰砰跳</div>
+                                    <div>迷恋上你的坏笑</div>
+                                    <div>你不说爱我我就喵喵喵</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>我要穿你的外套</div>
+                                    <div>闻你身上的味道</div>
+                                    <div>想要变成你的猫</div>
+                                    <div>赖在你怀里睡着</div>
+                                    <div>每天都贪恋着你的好</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>在你面前撒个娇</div>
+                                    <div>哎呦喵喵喵喵喵</div>
+                                    <div>我的心脏砰砰跳</div>
+                                    <div>迷恋上你的坏笑</div>
+                                    <div>你不说爱我我就喵喵喵</div>
+                                    <div>我们一起学猫叫</div>
+                                    <div>一起喵喵喵喵喵</div>
+                                    <div>我要穿你的外套</div>
+                                    <div>闻你身上的味道</div>
+                                    <div>想要变成你的猫</div>
+                                    <div>赖在你怀里睡着</div>
+                                    <div>每天都贪恋着你的好</div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom_fixed">
+                    <a href="javascript:;" class="iconfont" id="prev">&#xe800;</a>
+                    <a href="javascript:;" class="iconfont" id="play">&#xe66e;</a>
+                    <a href="javascript:;" class="iconfont" id="next">&#xe7ff;</a>
+                    <span class="line">
+                        <span class="line_dot"></span>
+                    </span>
+                    <a href="javascript:;" class="iconfont" id="play_mode">&#xe788;</a>
+                    <a href="javascript:;" class="iconfont" id="play_like">&#xe6a3;</a>
+                    <a href="javascript:;" class="iconfont">&#xe7ae;</a>
+                    <a href="javascript:;" class="iconfont">&#xe607;</a>
+                    <a href="javascript:;" class="iconfont" id="chunJing" title="纯净模式">&#xe652;</a>
+                    <a href="javascript:;" class="iconfont" id="play_voice">&#xe65e;</a>
+                    <span class="voice_line">
+                        <span class="voice_dot"></span>
+                    </span>
+                    <div class="line_top">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_img"></div>
+            <div class="bg_opacity"></div>
+            <div class="music_box">
+                <audio src="medias/audio/周杰伦 - 稻香.mp3"></audio>
+                <audio src="medias/audio/周杰伦 - 夜曲.mp3"></audio>
+                <audio src="medias/audio/周杰伦 - 可ai女人.mp3"></audio>
+                <audio src="medias/audio/周杰伦 - 发如雪.mp3"></audio>
+                <audio src="medias/audio/周杰伦 - 千里之外.mp3"></audio>
+                <audio src="medias/audio/周杰伦 - 七里香.mp3"></audio>
+                <audio src="medias/audio/林俊杰 - 醉赤壁.mp3"></audio>
+                <audio src="medias/audio/林俊杰 - 背对背拥抱.mp3"></audio>
+                <audio src="medias/audio/林俊杰 - 她说.mp3"></audio>
+                <audio src="medias/audio/小潘潘、小峰峰 - 学猫叫.mp3"></audio>
+            </div>
+        </section>
+    </div>
+    <!-- 播放器功能引入 -->
+    <script src="lib/jquery/jquery-1.12.4.js"></script>
+    <script src="js/playercontent.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!-- 主体功能引入 -->
+    <script src="js/friends.json"></script>
+    <script src="js/index.js"></script>
+    <script src="js/player.js"></script>
+</body>
+
+</html>

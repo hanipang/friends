@@ -1,0 +1,1197 @@
+html,
+body {
+  position: relative;
+  height  : 100%;
+}
+
+.top {
+  height          : 70px;
+  background-color: #242424;
+}
+
+.top .topbar .logo {
+  width: 180px;
+}
+
+.top .topbar .logo a {
+  width: 100%;
+}
+
+.top .topbar .logo a span {
+  position  : absolute;
+  top       : 6px;
+  background: url(../picture/topbar.png-dc113a8fc3f80363cca33db664c21769.png) no-repeat 8px -8px;
+  width     : 180px;
+  height    : 69px;
+}
+
+.top .topbar .nav {
+  margin-left: 178px;
+  text-align : center;
+  line-height: 70px;
+  font-size  : 14px;
+}
+
+.top .topbar .nav ul li {
+  padding: 0px 19px;
+}
+
+.top .topbar .nav ul li a {
+  color: #ccc;
+}
+
+.top .topbar .nav ul li:hover {
+  background-color: black;
+  cursor          : pointer;
+}
+
+.top .topbar .nav ul li:hover a {
+  color: white;
+}
+
+.top .topbar .nav ul li:nth-child(1) {
+  padding-left: 19px;
+}
+
+.top .topbar .nav ul li:nth-child(3) {
+  background-color: black;
+}
+
+.top .topbar .nav ul li:nth-child(3) a {
+  color: white;
+}
+
+.top .topbar .nav ul li:nth-child(6) span {
+  position  : absolute;
+  right     : 604px;
+  top       : 19px;
+  background: url(../picture/topbar.png-dc113a8fc3f80363cca33db664c21769.png) no-repeat -191px 3px;
+  width     : 28px;
+  height    : 19px;
+}
+
+.top .topbar .text {
+  width      : 158px;
+  height     : 32px;
+  margin-top : 5px;
+  margin-left: 69px;
+  position   : relative;
+}
+
+.top .topbar .text input {
+  width        : 124px;
+  height       : 32px;
+  border-radius: 32px;
+  margin-top   : 16px;
+  padding-left : 34px;
+  font-size    : 12px;
+}
+
+.top .topbar .text div {
+  position  : absolute;
+  width     : 26px;
+  height    : 24px;
+  background: url(../picture/topbar.png-dc113a8fc3f80363cca33db664c21769.png) no-repeat 0px -97px;
+  top       : 15px;
+  left      : 3px;
+}
+
+.top .topbar .text span {
+  width    : 120px;
+  position : absolute;
+  top      : 24px;
+  left     : 47px;
+  font-size: 12px;
+}
+
+.top .topbar .cz {
+  width        : 70px;
+  height       : 30px;
+  border       : 1px solid #4F4F4F;
+  padding-left : 10px;
+  margin-top   : 20px;
+  border-radius: 30px;
+  margin-right : 86px;
+}
+
+.top .topbar .cz span {
+  width: 100%;
+}
+
+.top .topbar .cz span a {
+  width      : 50px;
+  margin-left: 10px;
+  color      : #ccc;
+  font-size  : 12px;
+  margin     : 0 auto;
+  text-align : center;
+  line-height: 32px;
+}
+
+.top .topbar .cz:hover {
+  border-color: white;
+}
+
+.top .topbar .cz:hover a {
+  color: white;
+}
+
+.top .topdi {
+  width: 100%;
+}
+
+.top .topdi span:nth-child(1) {
+  border            : 6px solid #c20c0c;
+  border-top-color  : black;
+  border-left-color : black;
+  border-right-color: black;
+  position          : absolute;
+  top               : 58px;
+  left              : 609px;
+}
+
+.top .topdi span:nth-child(2) {
+  width           : 100%;
+  height          : 5px;
+  background-color: #c20c0c;
+  position        : absolute;
+  top             : 70px;
+  left            : 0px;
+}
+
+.playerfooter {
+  position  : fixed;
+  bottom    : -46px;
+  width     : 100%;
+  height    : 50px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) repeat 0px -4px;
+  opacity   : 0.98;
+  z-index   : 99;
+}
+
+.playerfooter .playermain {
+  height: 100%;
+}
+
+.playerfooter .playermain .playershop {
+  width : 137px;
+  height: 42px;
+}
+
+.playerfooter .playermain .playershop ul {
+  width      : 100%;
+  height     : 100%;
+  padding-top: 3px;
+}
+
+.playerfooter .playermain .playershop ul li {
+  position: relative;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(1) {
+  width : 28px;
+  height: 28px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(1) a {
+  position  : absolute;
+  top       : 9px;
+  left      : 5px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat 0px -130px;
+  width     : 28px;
+  height    : 28px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(1) a:hover {
+  position  : absolute;
+  top       : 9px;
+  left      : 5px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -30px -130px;
+  width     : 28px;
+  height    : 28px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(2) {
+  width : 36px;
+  height: 36px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(2) a {
+  position  : absolute;
+  top       : 5px;
+  left      : 10px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -40px -204px;
+  width     : 36px;
+  height    : 36px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(3) {
+  width : 28px;
+  height: 28px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(3) a {
+  position  : absolute;
+  top       : 9px;
+  left      : 18px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -80px -130px;
+  width     : 28px;
+  height    : 28px;
+}
+
+.playerfooter .playermain .playershop ul li:nth-child(3) a:hover {
+  position  : absolute;
+  top       : 9px;
+  left      : 18px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -110px -130px;
+  width     : 28px;
+  height    : 28px;
+}
+
+.playerfooter .playermain .header {
+  width     : 34px;
+  height    : 34px;
+  margin-top: 8px;
+}
+
+.playerfooter .playermain .header a {
+  width : 34px;
+  height: 34px;
+}
+
+.playerfooter .playermain .header a img {
+  border-radius: 2px;
+  width        : 34px;
+  height       : 34px;
+}
+
+.playerfooter .playermain .scroll {
+  width      : 608px;
+  height     : 37px;
+  margin-left: 186px;
+  padding-top: 6px;
+}
+
+.playerfooter .playermain .scroll .musicname {
+  width : 100%;
+  height: 28px;
+}
+
+.playerfooter .playermain .scroll .musicname ul {
+  width : 100%;
+  height: 28px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li a {
+  font-size: 12px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(1) a {
+  color: #e8e8e8;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(2) {
+  position   : relative;
+  width      : 19px;
+  height     : 17px;
+  margin-left: 3px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(2) a {
+  position  : absolute;
+  width     : 19px;
+  height    : 17px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat 0px -57px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(2) a:hover {
+  position  : absolute;
+  width     : 19px;
+  height    : 17px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -20px -57px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(3) {
+  margin-left : 6px;
+  margin-right: 6px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(3) a {
+  color: #9b9b9b;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(4) {
+  width   : 14px;
+  height  : 15px;
+  position: relative;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(4) a {
+  position  : absolute;
+  width     : 14px;
+  height    : 15px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -110px -102px;
+}
+
+.playerfooter .playermain .scroll .musicname ul li:nth-child(4) a:hover {
+  position  : absolute;
+  width     : 14px;
+  height    : 15px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -130px -102px;
+}
+
+.playerfooter .playermain .scroll .scrollbottom {
+  width   : 493px;
+  height  : 9px;
+  position: relative;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .scrolla {
+  position  : absolute;
+  background: url(../picture/statbar_8.png-244d0001646d5350dcd5275ede5697ff.png) no-repeat 0px 0px;
+  width     : 493px;
+  height    : 9px;
+  z-index   : 1;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .scrollb {
+  position: absolute;
+  top     : -7px;
+  left    : -6px;
+  width   : 22px;
+  height  : 24px;
+  z-index : 2;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .time {
+  position: absolute;
+  right   : -80px;
+  top     : -5px;
+  width   : 71px;
+  height  : 14px;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .time ul {
+  width: 86px;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .time ul li {
+  font-size: 12px;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .time ul li:nth-child(1) {
+  color: #a1a1a1;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .time ul li:nth-child(2) {
+  color: #797979;
+}
+
+.playerfooter .playermain .scroll .scrollbottom .time ul li:nth-child(3) {
+  color: #797979;
+}
+
+.playerfooter .playermain .scroll .menu {
+  position: relative;
+  width   : 200px;
+  height  : 100%;
+  top     : -35px;
+  right   : -186px;
+}
+
+.playerfooter .playermain .scroll .menu ul {
+  width   : 100%;
+  height  : 100%;
+  position: relative;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(1) {
+  position: relative;
+  width   : 24px;
+  height  : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(1) a {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -89px -165px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(1) a:hover {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -89px -191px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(2) {
+  position   : relative;
+  width      : 24px;
+  height     : 23px;
+  margin-left: 10px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(2) a {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -115px -165px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(2) a:hover {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -115px -191px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(3) {
+  position   : relative;
+  width      : 2px;
+  height     : 23px;
+  margin-left: 10px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(3) a {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/spe_mv_msk.png-d65d38626f079824f740504d90b83fc5.png) no-repeat;
+  width     : 2px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(4) {
+  position   : relative;
+  width      : 24px;
+  height     : 23px;
+  margin-left: 10px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(4) a {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -2px -249px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(4) a:hover {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -31px -249px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(5) {
+  position    : relative;
+  width       : 24px;
+  height      : 23px;
+  margin-left : 8px;
+  margin-right: 5px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(5) a {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -67px -249px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(5) a:hover {
+  position  : absolute;
+  top       : 8px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -94px -249px;
+  width     : 24px;
+  height    : 23px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(6) {
+  position: relative;
+  width   : 59px;
+  height  : 36px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(6) a {
+  position  : absolute;
+  top       : 3px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -44px -64px;
+  width     : 59px;
+  height    : 34px;
+}
+
+.playerfooter .playermain .scroll .menu ul li:nth-child(6) a:hover {
+  position  : absolute;
+  top       : 3px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -44px -94px;
+  width     : 59px;
+  height    : 34px;
+}
+
+.playerfooter .status {
+  right : -646px;
+  top   : -67px;
+  width : 52px;
+  height: 67px;
+}
+
+.playerfooter .status .statusa {
+  width   : 52px;
+  height  : 67px;
+  position: relative;
+}
+
+.playerfooter .status .statusa .statusb {
+  position  : absolute;
+  right     : -635px;
+  top       : -61px;
+  width     : 65px;
+  height    : 67px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat 0px -386px;
+}
+
+.playerfooter .status .statusa .statusb .activea {
+  display   : none;
+  position  : absolute;
+  top       : 0px;
+  right     : 30px;
+  width     : 18px;
+  height    : 18px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -100px -381px;
+  z-index   : 2;
+}
+
+.playerfooter .status .statusa .statusb .activea:hover {
+  position  : absolute;
+  top       : 0px;
+  right     : 30px;
+  width     : 18px;
+  height    : 18px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -100px -401px;
+}
+
+.playerfooter .status .statusa .statusb .active {
+  display   : block;
+  position  : absolute;
+  top       : 0px;
+  right     : 30px;
+  width     : 18px;
+  height    : 18px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -80px -381px;
+  z-index   : 2;
+}
+
+.playerfooter .status .statusa .statusb .active:hover {
+  position  : absolute;
+  top       : 0px;
+  right     : 30px;
+  width     : 18px;
+  height    : 18px;
+  background: url(../picture/playbar_8.png-375e1c74da1125be7932f5affa979381.png) no-repeat -80px -401px;
+}
+
+.content {
+  width           : 100%;
+  height          : 1300px;
+  background-color: #f5f5f5;
+}
+
+.content .btna {
+  width   : 40px;
+  height  : 80px;
+  position: fixed;
+  right   : 229px;
+  top     : 400px;
+  display : none;
+  cursor  : pointer;
+}
+
+.content .btna img {
+  width : 40px;
+  height: 80px;
+}
+
+.content .contentcenter {
+  height          : 1300px;
+  background-color: white;
+}
+
+.content .contentcenter .leftcontent {
+  width     : 680px;
+  height    : 100%;
+  padding   : 25px 30px;
+  font-size : 12px;
+  box-sizing: border-box;
+}
+
+.content .contentcenter .leftcontent .leftbanner {
+  width        : 620px;
+  height       : 42px;
+  border-bottom: 2px solid #c20c0c;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul {
+  width : 100%;
+  height: 100%;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(1) {
+  font-size  : 24px;
+  font-family: "Microsoft Yahei";
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(2) {
+  width      : 82px;
+  height     : 24px;
+  position   : relative;
+  margin-left: 6px;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(2) a {
+  position  : absolute;
+  top       : 2px;
+  background: url(../picture/left.png) no-repeat -100px -452px;
+  width     : 84px;
+  height    : 24px;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(2) a:hover {
+  position  : absolute;
+  top       : 2px;
+  background: url(../picture/left.png) no-repeat -100px -480px;
+  width     : 84px;
+  height    : 24px;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(3) {
+  width   : 71px;
+  height  : 24px;
+  position: relative;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(3) a {
+  position  : absolute;
+  top       : 2px;
+  background: url(../picture/left.png) no-repeat 0px -452px;
+  width     : 71px;
+  height    : 24px;
+}
+
+.content .contentcenter .leftcontent .leftbanner ul li:nth-child(3) a:hover {
+  position  : absolute;
+  top       : 2px;
+  background: url(../picture/left.png) no-repeat 0px -480px;
+  width     : 71px;
+  height    : 24px;
+}
+
+.content .contentcenter .leftcontent .listcontent {
+  width     : 100%;
+  box-sizing: border-box;
+  padding   : 20px 0px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain {
+  width  : 100%;
+  display: flex;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .userlogo {
+  flex: 1;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .userlogo img {
+  width : 45px;
+  height: 45px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .username {
+  flex: 7;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .username ul {
+  width   : 100%;
+  clear   : both;
+  overflow: hidden;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .username ul li:nth-child(1) {
+  font-size: 14px;
+  color    : #0c73c2;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .username ul li:nth-child(2) {
+  width      : 12px;
+  margin-left: 10px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .username ul li:nth-child(3) {
+  width      : 60px;
+  margin-left: 20px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .username ul .usernamea {
+  width      : 60px;
+  margin-left: -130px;
+  margin-top : 11px;
+  font-size  : 12px;
+  color      : #999999;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg {
+  flex: 2;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg ul {
+  height  : 30px;
+  position: relative;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg ul li {
+  cursor: pointer;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg ul li:nth-child(1) {
+  position  : absolute;
+  top       : 0px;
+  left      : 40px;
+  width     : 54px;
+  height    : 24px;
+  background: url(../images/button.png) no-repeat -94px -38px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg ul li:nth-child(1):hover {
+  position     : absolute;
+  top          : 0px;
+  left         : 40px;
+  width        : 54px;
+  height       : 24px;
+  background   : url(../images/button.png) no-repeat 0px -95px;
+  border-radius: 6px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg ul li:nth-child(2) {
+  position : absolute;
+  top      : 3px;
+  left     : 59px;
+  font-size: 12px;
+}
+
+.content .contentcenter .leftcontent .listcontent .listmain .msg ul li:nth-child(3) {
+  position  : absolute;
+  top       : 0px;
+  left      : 99px;
+  width     : 19px;
+  height    : 19px;
+  background: url(../picture/left.png) no-repeat -13px 3px;
+  cursor    : pointer;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain {
+  padding-left: 20px;
+  overflow    : hidden;
+  box-sizing  : border-box;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .contentname {
+  padding: 9px 2px 0px 41px;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .contentname ul li {
+  font-size: 12px;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .contentname ul li:nth-child(2) a {
+  color: #0c73c2;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .container {
+  width     : 100%;
+  padding   : 22px 0px 0px 35px;
+  box-sizing: border-box;
+  clear     : both;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .container .videomusic {
+  width: 400px;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .container .videomusic .video source {
+  width : 400px;
+  height: 300px;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg {
+  margin-top   : 10px;
+  width        : 100%;
+  height       : 30px;
+  border-bottom: #c7b2b2 1px solid;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul {
+  width       : 100%;
+  height      : 30px;
+  padding-left: 380px;
+  box-sizing  : border-box;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul li {
+  width: 80px;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul li a {
+  color: #0c73c2;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul li a:hover {
+  text-decoration: underline;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul li:nth-child(1) {
+  position: relative;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul li:nth-child(1) a {
+  position  : absolute;
+  width     : 14px;
+  height    : 14px;
+  top       : 0px;
+  left      : 0px;
+  background: url(../picture/left.png) no-repeat 0px -20px;
+}
+
+.content .contentcenter .leftcontent .listcontent .footermsg ul li:nth-child(2) a {
+  padding-left: 20px;
+}
+
+.content .contentcenter .rightcontent {
+  width           : 298px;
+  height          : 1300px;
+  background-color: white;
+  border-left     : #afa9a9 1px solid;
+  border-right    : #ece2e2 1px solid;
+  box-sizing      : border-box;
+}
+
+.content .contentcenter .rightcontent .rightsidebar {
+  width           : 284px;
+  background-color: white;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service {
+  position    : relative;
+  width       : 296px;
+  height      : 195px;
+  padding-left: 30px;
+  padding-top : 38px;
+  box-sizing  : border-box;
+  overflow    : hidden;
+  clear       : both;
+  background  : url(../picture//QQ截图20190520155550.png) repeat-x 0px 0px;
+  top         : 5px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service .touxiang {
+  width  : 68px;
+  height : 68px;
+  padding: 2px;
+  clear  : both;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service .touxiang img {
+  border: 2px solid white;
+  width : 68px;
+  height: 68px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service h5 {
+  height      : 95px;
+  width       : 100px;
+  margin-left : 30px;
+  margin-right: 60px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service h5:hover {
+  text-decoration: underline;
+  cursor         : pointer;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service .geren {
+  cursor    : pointer;
+  position  : absolute;
+  top       : 75px;
+  left      : 127px;
+  width     : 95px;
+  height    : 32px;
+  background: url(../images/btn_enter_hvr.png) no-repeat;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service .geren:hover {
+  position  : absolute;
+  top       : 75px;
+  left      : 127px;
+  width     : 95px;
+  height    : 32px;
+  background: url(../images/btn_enter.png) no-repeat;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service ul {
+  width      : 250px;
+  height     : 60px;
+  overflow   : hidden;
+  margin-top : 20px;
+  margin-left: 10px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service ul li {
+  width   : 80px;
+  height  : 60px;
+  overflow: hidden;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service ul li a {
+  height: 80px;
+  width : 50px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service ul li a em {
+  width         : 50px;
+  height        : 50px;
+  font-size     : 20px;
+  padding-bottom: 5px;
+  margin-bottom : 10px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service ul li a i {
+  font-size: 12px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .service ul li a:hover {
+  color: #08aaaa;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people {
+  width     : 296px;
+  padding   : 20px 30px;
+  box-sizing: border-box;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .servicea {
+  width: 100%;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .servicea ul {
+  height       : 25px;
+  width        : 100%;
+  border-bottom: 1px solid #afa9a9;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .servicea ul li {
+  height: 30px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .servicea ul li:nth-child(1) {
+  color: #333333;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .servicea ul li:nth-child(2) a {
+  color: #666666;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .servicea ul li:nth-child(2) a:hover {
+  text-decoration: underline;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb {
+  padding: 10px 0px;
+  width  : 100%;
+  display: flex;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .tou {
+  flex: 2;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .ming {
+  margin-left: 10px;
+  flex       : 6;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .ming .minga a {
+  color: #333333;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .ming .minga img {
+  width : 16px;
+  height: 16px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .ming .mingb {
+  margin-top: 5px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .ming .mingb a {
+  color     : #9b9b9b;
+  margin-top: 5px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .guan {
+  flex: 2;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .guan a {
+  width   : 60px;
+  position: relative;
+  top     : 11px;
+  left    : -8px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .guan a div {
+  position  : absolute;
+  width     : 52px;
+  height    : 22px;
+  background: url(../picture/button.png-77534287bf5ba1a74c35e40d914f4421.png) no-repeat 0px -96px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .people .serviceb .guan a span {
+  top      : 2px;
+  left     : 19px;
+  position : absolute;
+  width    : 30px;
+  font-size: 12px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding {
+  width     : 296px;
+  height    : 31px;
+  padding   : 20px 30px;
+  box-sizing: border-box;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .wb {
+  font-size: 12px;
+  margin   : 5px 0px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd {
+  width   : 235px;
+  height  : 31px;
+  position: relative;
+  cursor  : pointer;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd .bdb {
+  position  : absolute;
+  top       : 0px;
+  left      : 0px;
+  width     : 229px;
+  height    : 31px;
+  background: url(../images/button2.png) no-repeat 0px -2438px;
+  z-index   : 2;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd .bdb:hover {
+  position  : absolute;
+  top       : 0px;
+  left      : 0px;
+  width     : 229px;
+  height    : 31px;
+  background: url(../images/button2.png) no-repeat 0px -2368px;
+  z-index   : 2;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd .bdba {
+  position  : absolute;
+  top       : 0px;
+  left      : 225px;
+  width     : 4px;
+  height    : 31px;
+  z-index   : 2;
+  background: url(../images/button2.png) no-repeat -246px -2468px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd .bdba:hover {
+  position  : absolute;
+  top       : 0px;
+  left      : 225px;
+  width     : 4px;
+  height    : 31px;
+  z-index   : 2;
+  background: url(../images/button2.png) no-repeat -246px -2398px;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd .bdw {
+  position     : absolute;
+  top          : 6px;
+  left         : 45px;
+  background   : url(../images/logo.png) no-repeat 0px 0px;
+  width        : 20px;
+  height       : 20px;
+  border-radius: 20px;
+  z-index      : 2;
+}
+
+.content .contentcenter .rightcontent .rightsidebar .bangding .bd span {
+  position: absolute;
+  top     : 6px;
+  left    : 76px;
+  z-index : 9;
+}
+
+/* 内容2轮播图 */
+.swiper-container {
+  width       : 100%;
+  height      : 300px;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size    : cover;
+  background-position: center;
+  height: 300px !important;
+}
+
+.gallery-top {
+  height: 80%;
+  width : 100%;
+}
+
+.gallery-thumbs {
+  height    : 100px;
+  box-sizing: border-box;
+  padding   : 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+  width  : 25%;
+  height : 100%;
+  opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.swiper-wrapper .tou {
+  height: 300px;
+  /* z-index: !important; */
+
+}
+
+.usernameab {
+  width: 60px;
+  margin-left: -171px;
+  margin-top: 11px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.content .contentcenter .leftcontent .listcontent .contentmain .contentname ul li:nth-child(2) a:hover {
+  text-decoration: underline;
+}
